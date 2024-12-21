@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>Programming  Quiz</header>
+            <div class="container">
+                <form id="quiz-form">
+
+
+            <!-- Question 1 -->
+          <div class="question">
+                <p>1. Which of the following are JavaScript frameworks? (Select all that apply)</p>
+                <div class="options">
+                    <label><input type="checkbox" name="q1" value="React" data-correct="true"> React</label>
+                    <label><input type="checkbox" name="q1" value="Bootstrap"> Bootstrap</label>
+                    <label><input type="checkbox" name="q1" value="Laravel"> Laravel</label>
+                    <label><input type="checkbox" name="q1" value="Angular" data-correct="true"> Angular</label>
+                </div>
+            </div>
+
+            
+            <div class="question">
+                <p>2. What are the keywords used to declare a variable in JavaScript?</p>
+                <div class="options">
+                    <label><input type="checkbox" name="q2" value="var" data-correct="true"> var</label>
+                    <label><input type="checkbox" name="q2" value="let" data-correct="true"> let</label>
+                    <label><input type="checkbox" name="q2" value="int"> int</label>
+                    <label><input type="checkbox" name="q2" value="const" data-correct="true"> const</label>
+                </div>
+            </div>
+            
+
+        <div class="question">
+            <p>3. What does "DOM" stand for?</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="Document Object Model" data-correct="true"> Document Object Model</label>
+                <label><input type="radio" name="q3" value="Data Output Method"> Data Output Method</label>
+                <label><input type="radio" name="q3" value="Digital Object Management"> Digital Object Management</label>
+                <label><input type="radio" name="q3" value="Dynamic Output Mechanism"> Dynamic Output Mechanism</label>
+            </div>
+        </div>
+
+            <div class="question">
+                <p>4. What is the main advantage of using radio buttons in a form?</p>
+                <div class="options">
+                    <label><input type="radio" name="q4" value="Allows multiple selections"> Allows multiple selections</label>
+                    <label><input type="radio" name="q4" value="Allows only one selection" data-correct="true"> Allows only one selection</label>
+                    <label><input type="radio" name="q4" value="Can submit a range of values"> Can submit a range of values</label>
+                    <label><input type="radio" name="q4" value="Makes the form look neat"> Makes the form look neat</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>5. What happens if two radio buttons have the same name but different values?</p>
+                <div class="options">
+                    <label><input type="radio" name="q5" value="Both can be selected at once"> Both can be selected at once</label>
+                    <label><input type="radio" name="q5" value="Only one can be selected at once" data-correct="true"> Only one can be selected at once</label>
+                    <label><input type="radio" name="q5" value="One is always disabled"> One is always disabled</label>
+                    <label><input type="radio" name="q5" value="Both are required to be selected"> Both are required to be selected</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>6. What is the default behavior when a form is submitted with an unselected radio button group?</p>
+                <div class="options">
+                    <label><input type="radio" name="q6" value="Form submission fails"> Form submission fails</label>
+                    <label><input type="radio" name="q6" value="The default radio button is selected automatically"> The default radio button is selected automatically</label>
+                    <label><input type="radio" name="q6" value="It is considered an invalid form"> It is considered an invalid form</label>
+                    <label><input type="radio" name="q6" value="The user will be asked to select an option" data-correct="true"> The user will be asked to select an option</label>
+                </div>
+            </div>
+
+
+            <div class="question">
+                <p>7. Which of the following are JavaScript loop types? (Select all that apply)</p>
+                <div class="options">
+                    <label><input type="checkbox" name="q7" value="for" data-correct="true"> for</label>
+                    <label><input type="checkbox" name="q7" value="foreach" data-correct="true"> foreach</label>
+                    <label><input type="checkbox" name="q7" value="while" data-correct="true"> while</label>
+                    <label><input type="checkbox" name="q7" value="loopdo"> loopdo</label>
+                </div>
+            </div>
+
+
+            <div class="question">
+                <p>8. What is a function in JavaScript?</p>
+                <div class="options">
+                    <label><input type="checkbox" name="q7" value="A block of code that runs only once"> A block of code that runs only once</label>
+                    <label><input type="checkbox" name="q7" value="A reusable block of code designed to perform a specific task" data-correct="true"> A reusable block of code designed to perform a specific task</label>
+                    <label><input type="checkbox" name="q7" value="A reserved keyword for storing variables"> A reserved keyword for storing variables</label>
+                    <label><input type="checkbox" name="q7" value="A special variable that holds objects"> A special variable that holds objects</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>9. How do you define a function in JavaScript?</p>
+                <div class="options">
+                    <label><input type="radio" name="q8" value="A. let myFunc = function() {}">  let myFunc = function() {}</label>
+                    <label><input type="radio" name="q8" value="B. function myFunc() {}">  function myFunc() {}</label>
+                    <label><input type="radio" name="q8" value="C. Both A and B" data-correct="true">  Both A and B</label>
+                    <label><input type="radio" name="q8" value="D. define function myFunc() {}">  define function myFunc() {}</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>10. What is the output of the following code?</p>
+                <pre>
+            function add(a, b) {
+              return a + b;
+            }
+            console.log(add(2, 3));
+                </pre>
+                <div class="options">
+                    <label><input type="radio" name="q10" value="A. 5" data-correct="true">  5</label>
+                    <label><input type="radio" name="q10" value="B. 2">  2</label>
+                    <label><input type="radio" name="q10" value="C. '23'">  "23"</label>
+                    <label><input type="radio" name="q10" value="D. Undefined"> Undefined</label>
+                </div>
+            </div>
+
+
+            <div class="question">
+                <p>11. What will <code>console.log</code> print in this case?</p>
+                <pre>
+            function test() {
+              return;
+              console.log("Hello");
+            }
+            console.log(test());
+                </pre>
+                <div class="options">
+                    <label><input type="radio" name="q11" value="A. Hello">  Hello</label>
+                    <label><input type="radio" name="q11" value="B. undefined" data-correct="true">  undefined</label>
+                    <label><input type="radio" name="q11" value="C. null">  null</label>
+                    <label><input type="radio" name="q11" value="D. No output">  No output</label>
+                </div>
+            </div>
+
+
+            <div class="question">
+                <p>12. What are "arrow functions" in JavaScript?</p>
+                <div class="options">
+                    <label><input type="radio" name="q12" value="A. Functions declared using -> operator.">  Functions declared using -> operator</label>
+                    <label><input type="radio" name="q12" value="B. A shorter syntax for function expressions using =>" data-correct="true">  A shorter syntax for function expressions using =></label>
+                    <label><input type="radio" name="q12" value="C. Functions that cannot take parameters.">  Functions that cannot take parameters</label>
+                    <label><input type="radio" name="q12" value="D. Functions that do not return values.">  Functions that do not return value.</label>
+                </div>
+            </div>
+
+
+            <div class="question">
+                <p>13. How do you write an arrow function that adds two numbers?</p>
+                <div class="options">
+                    <label><input type="radio" name="q13" value="A. const add = (a, b) => a + b;" data-correct="true">  const add = (a, b) => a + b;</label>
+                    <label><input type="radio" name="q13" value="B. const add = function(a, b) => { a + b };">  const add = function(a, b) => { a + b };</label>
+                    <label><input type="radio" name="q13" value="C. function add(a, b) { => a + b; }">  function add(a, b) { => a + b; }</label>
+                    <label><input type="radio" name="q13" value="D. add(a, b) = a + b;">  add(a, b) = a + b;</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>14. What does the return statement do in a function?</p>
+                <div class="options">
+                    <label><input type="radio" name="q14" value="A. Ends the function and returns a value." data-correct="true">  Ends the function and returns a value.</label>
+                    <label><input type="radio" name="q14" value="B. Pauses the function temporarily.">  Pauses the function temporarily.</label>
+                    <label><input type="radio" name="q14" value="C. Displays a value to the console.">  Displays a value to the console.</label>
+                    <label><input type="radio" name="q14" value="D. Declares a variable.">  Declares a variable.</label>
+                </div>
+            </div>
+
+
+            <div class="question">
+                <p>15. What happens if a function does not have a return statement?</p>
+                <div class="options">
+                    <label><input type="radio" name="q15" value="A. It throws an error.">  It throws an error.</label>
+                    <label><input type="radio" name="q15" value="B. It returns undefined by default." data-correct="true">  It returns undefined by default.</label>
+                    <label><input type="radio" name="q15" value="C. It prints the function body.">  It prints the function body.</label>
+                    <label><input type="radio" name="q15" value="D. It crashes the program.">  It crashes the program.</label>
+                </div>
+            </div>
+            
+
+            <div class="question">
+                <p>16. How can you call a function immediately after it is defined?</p>
+                <div class="options">
+                    <label><input type="radio" name="q16" value="A. By assigning it to a variable.">  By assigning it to a variable.</label>
+                    <label><input type="radio" name="q16" value="B. Using an IIFE (Immediately Invoked Function Expression)." data-correct="true">  Using an IIFE (Immediately Invoked Function Expression).</label>
+                    <label><input type="radio" name="q16" value="C. By using run before the function.">  By using run before the function.</label>
+                    <label><input type="radio" name="q16" value="D. By defining it with auto() keyword.">  By defining it with auto() keyword.</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>17. What is the correct syntax for a default parameter in a function?</p>
+                <div class="options">
+                    <label><input type="radio" name="q17" value="A. function myFunc(a = 5) {}" data-correct="true">  function myFunc(a = 5) {}</label>
+                    <label><input type="radio" name="q17" value="B. function myFunc(default a = 5) {}">  function myFunc(default a = 5) {}</label>
+                    <label><input type="radio" name="q17" value="C. function myFunc(a) = 5 {}">  function myFunc(a) = 5 {}</label>
+                    <label><input type="radio" name="q17" value="D. function myFunc(a : 5) {}">  function myFunc(a : 5) {}</label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>18. What is the &lt;pre&gt; tag used for in HTML?</p>
+                <div class="options">
+                    <label><input type="radio" name="q18" value="A. To display text with extra spacing">  To display text with extra spacing</label>
+                    <label><input type="radio" name="q18" value="B. To preserve whitespace and display preformatted text" data-correct="true">  To preserve whitespace and display preformatted text</label>
+                    <label><input type="radio" name="q18" value="C. To add inline code snippets">  To add inline code snippets</label>
+                    <label><input type="radio" name="q18" value="D. To format a paragraph with bold text">  To format a paragraph with bold text</label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>19. How does the &lt;pre&gt; tag treat whitespace and line breaks?</p>
+                <div class="options">
+                    <label><input type="radio" name="q19" value="A. It collapses whitespace and ignores line breaks">  It collapses whitespace and ignores line breaks</label>
+                    <label><input type="radio" name="q19" value="B. It preserves whitespace and respects line breaks" data-correct="true">  It preserves whitespace and respects line breaks</label>
+                    <label><input type="radio" name="q19" value="C. It converts all whitespace into a single space">  It converts all whitespace into a single space</label>
+                    <label><input type="radio" name="q19" value="D. It adds extra line breaks between each line of text">  It adds extra line breaks between each line of text</label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>20. What does the following HTML code produce?</p>
+                <pre>
+                   (pre)
+                This is preformatted text
+                    with spaces, tabs, and
+                new lines.
+                   (pre)
+                </pre>
+                <div class="options">
+                    <label><input type="radio" name="q20" value="A. A single line of text with collapsed spaces">  A single line of text with collapsed spaces</label>
+                    <label><input type="radio" name="q20" value="B. Text displayed exactly as written with spaces, tabs, and new lines" data-correct="true">  Text displayed exactly as written with spaces, tabs, and new lines</label>
+                    <label><input type="radio" name="q20" value="C. Text displayed without any whitespace">  Text displayed without any whitespace</label>
+                    <label><input type="radio" name="q20" value="D. Text shown in bold and italics">  Text shown in bold and italics</label>
+                </div>
+            </div>
+            
+            
+            <div class="question">
+                <p>21. What is the default font style of text inside a <code>&lt;pre&gt;</code> tag?</p>
+                <div class="options">
+                    <label><input type="radio" name="q21" value="A. Italic">  Italic</label>
+                    <label><input type="radio" name="q21" value="B. Bold">  Bold</label>
+                    <label><input type="radio" name="q21" value="C. Monospace (fixed-width)" data-correct="true">  Monospace (fixed-width)</label>
+                    <label><input type="radio" name="q21" value="D. Sans-serif">  Sans-serif</label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>22. Can you include other HTML tags inside a <code>&lt;pre&gt;</code> tag?</p>
+                <div class="options">
+                    <label><input type="radio" name="q22" value="A. Yes, all HTML tags work normally">  Yes, all HTML tags work normally</label>
+                    <label><input type="radio" name="q22" value="B. No, HTML tags are ignored inside &lt;pre&gt;">  No, HTML tags are ignored inside &lt;pre&gt;</label>
+                    <label><input type="radio" name="q22" value="C. Yes, but they are rendered as text, not elements">  Yes, but they are rendered as text, not elements</label>
+                    <label><input type="radio" name="q22" value="D. It depends on the specific tag used" data-correct="true">  It depends on the specific tag used</label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>23. What is the main difference between <code>&lt;pre&gt;</code> and <code>&lt;code&gt;</code> tags in HTML?</p>
+                <div class="options">
+                    <label><input type="radio" name="q23" value="A. &lt;pre&gt; preserves whitespace, while &lt;code&gt; does not" data-correct="true">  &lt;pre&gt; preserves whitespace, while &lt;code&gt; does not</label>
+                    <label><input type="radio" name="q23" value="B. &lt;code&gt; preserves line breaks, while &lt;pre&gt; does not">  &lt;code&gt; preserves line breaks, while &lt;pre&gt; does not</label>
+                    <label><input type="radio" name="q23" value="C. &lt;pre&gt; formats text with bold letters, while &lt;code&gt; does not">  &lt;pre&gt; formats text with bold letters, while &lt;code&gt; does not</label>
+                    <label><input type="radio" name="q23" value="D. &lt;code&gt; is used for paragraphs, while &lt;pre&gt; is not">  &lt;code&gt; is used for paragraphs, while &lt;pre&gt; is not</label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>24. What happens if you add inline CSS to change the font in a <code>&lt;pre&gt;</code> tag?</p>
+                <div class="options">
+                    <label><input type="radio" name="q24" value="A. The font cannot be changed because &lt;pre&gt; always uses monospace">  The font cannot be changed because &lt;pre&gt; always uses monospace</label>
+                    <label><input type="radio" name="q24" value="B. The font can be changed using CSS properties like font-family" data-correct="true">  The font can be changed using CSS properties like font-family</label>
+                    <label><input type="radio" name="q24" value="C. Only the font size can be adjusted, not the style">  Only the font size can be adjusted, not the style</label>
+                    <label><input type="radio" name="q24" value="D. The CSS will be ignored by the browser">  The CSS will be ignored by the browser</label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>25. Is it possible to use <code>&lt;pre&gt;</code> for displaying code snippets?</p>
+                <div class="options">
+                    <label><input type="radio" name="q25" value="A. Yes, it can display code with preserved indentation and formatting" data-correct="true">  Yes, it can display code with preserved indentation and formatting</label>
+                    <label><input type="radio" name="q25" value="B. No, only the <code>&lt;code&gt;</code> tag is used for displaying code">  No, only the <code>&lt;code&gt;</code> tag is used for displaying code</label>
+                    <label><input type="radio" name="q25" value="C. <pre> adds extra line breaks, so it's not suitable for code">  (pre) adds extra line breaks, so it's not suitable for code</label>
+                    <label><input type="radio" name="q25" value="D. Yes, but only with JavaScript">  Yes, but only with JavaScript</label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>26. What is the correct way to combine <code>&lt;pre&gt;</code> with the <code>&lt;code&gt;</code> tag for displaying code?</p>
+                <div class="options">
+                    <label>
+                        <pre><input type="radio" name="q26" value="A. &lt;pre&gt;&lt;code&gt;console.log(&quot;Hello World&quot;);&lt;/code&gt;&lt;/pre&gt;" data-correct="false">  
+                        &lt;pre&gt;
+                        &lt;code&gt;console.log(&quot;Hello World&quot;);&lt;/code&gt;
+                        &lt;/pre&gt;</pre>
+                    </label>
+                    <label>
+                        <pre><input type="radio" name="q26" value="B. &lt;code&gt;&lt;pre&gt;console.log(&quot;Hello World&quot;);&lt;/pre&gt;&lt;/code&gt;">  
+                            &lt;code&gt;
+                            &lt;pre&gt;console.log(&quot;Hello World&quot;);&lt;/pre&gt;
+                            &lt;/code&gt;</pre>
+                    </label>
+                    <label>
+                        <pre><input type="radio" name="q26" value="C. &lt;pre&gt;&lt;code&gt;console.log(&quot;Hello World&quot;);&lt;/code&gt;&lt;/pre&gt;" data-correct="true">  &lt;pre&gt;&lt;code&gt;console.log(&quot;Hello World&quot;);&lt;/code&gt;&lt;/pre&gt;</pre>
+                    </label>
+                    <label>
+                        <pre><input type="radio" name="q26" value="D. &lt;pre&gt;&lt;code&gt;console.log(&quot;Hello World&quot;)&lt;/pre&gt;&lt;/code&gt;">  &lt;pre&gt;&lt;code&gt;console.log(&quot;Hello World&quot;)&lt;/pre&gt;&lt;/code&gt;</pre>
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="question">
+                <p>27. How can you add scrollbars to a <code>&lt;pre&gt;</code> block if the content overflows?</p>
+                <div class="options">
+                    <label><input type="radio" name="q27" value="A. Use the overflow CSS property with auto or scroll." data-correct="true">  Use the overflow CSS property with auto or scroll.</label>
+                    <label><input type="radio" name="q27" value="B. Add scroll attribute directly to the &lt;pre&gt; tag." data-correct="false">  Add scroll attribute directly to the &lt;pre&gt; tag.</label>
+                    <label><input type="radio" name="q27" value="C. The browser automatically adds scrollbars." data-correct="false">  The browser automatically adds scrollbars.</label>
+                    <label><input type="radio" name="q27" value="D. Set a fixed width and height using inline CSS only." data-correct="false">  Set a fixed width and height using inline CSS only.</label>
+                </div>
+            </div>
+
+
+            <div class="question">
+                <p>28. What happens when you write text inside <code>&lt;pre&gt;</code> without formatting?</p>
+                <div class="options">
+                    <label><input type="radio" name="q28" value="A. The text collapses whitespace as in &lt;p&gt;." data-correct="false">  The text collapses whitespace as in &lt;p&gt;.</label>
+                    <label><input type="radio" name="q28" value="B. The text will still display with monospace font and preserve line breaks." data-correct="true">  The text will still display with monospace font and preserve line breaks.</label>
+                    <label><input type="radio" name="q28" value="C. The text will break into multiple lines automatically." data-correct="false">  The text will break into multiple lines automatically.</label>
+                    <label><input type="radio" name="q28" value="D. The text will appear bold and italic." data-correct="false">  The text will appear bold and italic.</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>29. Can the <code>&lt;pre&gt;</code> tag be styled using CSS?</p>
+                <div class="options">
+                    <label><input type="radio" name="q29" value="A. No, the &lt;pre&gt; tag cannot be styled." data-correct="false">  No, the &lt;pre&gt; tag cannot be styled.</label>
+                    <label><input type="radio" name="q29" value="B. Yes, but only inline CSS works." data-correct="false">  Yes, but only inline CSS works.</label>
+                    <label><input type="radio" name="q29" value="C. Yes, it can be styled using standard CSS properties." data-correct="true">  Yes, it can be styled using standard CSS properties.</label>
+                    <label><input type="radio" name="q29" value="D. Only font and size can be styled." data-correct="false">  Only font and size can be styled.</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>30. How do you prevent text inside <code>&lt;pre&gt;</code> from wrapping to a new line?</p>
+                <div class="options">
+                    <label><input type="radio" name="q30" value="A. Use white-space: nowrap; in CSS." data-correct="true">  Use white-space: nowrap; in CSS.</label>
+                    <label><input type="radio" name="q30" value="B. Add the wrap=&quot;off&quot; attribute to &lt;pre&gt;." data-correct="false">  Add the wrap=&quot;off&quot; attribute to &lt;pre&gt;.</label>
+                    <label><input type="radio" name="q30" value="C. It is not possible to disable text wrapping." data-correct="false">  It is not possible to disable text wrapping.</label>
+                    <label><input type="radio" name="q30" value="D. Use &lt;nowrap&gt; instead of &lt;pre&gt;." data-correct="false">  Use &lt;nowrap&gt; instead of &lt;pre&gt;.</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>31. Which of the following is true about <code>&lt;pre&gt;</code> tags?</p>
+                <div class="options">
+                    <label><input type="radio" name="q31" value="A. &lt;pre&gt; content is ignored by screen readers." data-correct="false">  &lt;pre&gt; content is ignored by screen readers.</label>
+                    <label><input type="radio" name="q31" value="B. &lt;pre&gt; can contain both text and valid HTML elements." data-correct="true">  &lt;pre&gt; can contain both text and valid HTML elements.</label>
+                    <label><input type="radio" name="q31" value="C. The browser automatically removes extra spaces in &lt;pre&gt;." data-correct="false">  The browser automatically removes extra spaces in &lt;pre&gt;.</label>
+                    <label><input type="radio" name="q31" value="D. &lt;pre&gt; cannot display multi-line text." data-correct="false">  &lt;pre&gt; cannot display multi-line text.</label>
+                </div>
+            </div>
+            
+            
+            <div class="question">
+                <p>32. What is the result of adding an empty <code>&lt;pre&gt;</code> tag to an HTML document?</p>
+                <div class="options">
+                    <label><input type="radio" name="q32" value="A. It displays an empty block with vertical space." data-correct="true">  It displays an empty block with vertical space.</label>
+                    <label><input type="radio" name="q32" value="B. It displays &quot;null&quot; or &quot;undefined&quot;." data-correct="false">  It displays &quot;null&quot; or &quot;undefined&quot;.</label>
+                    <label><input type="radio" name="q32" value="C. It displays a blank paragraph with bold text." data-correct="false">  It displays a blank paragraph with bold text.</label>
+                    <label><input type="radio" name="q32" value="D. It throws an HTML error." data-correct="false">  It throws an HTML error.</label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>33. What CSS property is used to change the font of an element?</p>
+                <div class="options">
+                    <label><input type="radio" name="q33" value="A. font-style" data-correct="false">  font-style</label>
+                    <label><input type="radio" name="q33" value="B. font-family" data-correct="true">  font-family</label>
+                    <label><input type="radio" name="q33" value="C. text-decoration" data-correct="false">  text-decoration</label>
+                    <label><input type="radio" name="q33" value="D. font-weight" data-correct="false">  font-weight</label>
+                </div>
+            </div>
+            
+
+            <div class="question">
+                <p>34. How do you apply multiple font families in CSS as a fallback?</p>
+                <div class="options">
+                    <label><input type="radio" name="q34" value="A. Separate the font names with semicolons." data-correct="false">  Separate the font names with semicolons.</label>
+                    <label><input type="radio" name="q34" value="B. Separate the font names with commas." data-correct="true">  Separate the font names with commas.</label>
+                    <label><input type="radio" name="q34" value="C. Use the fallback keyword." data-correct="false">  Use the fallback keyword.</label>
+                    <label><input type="radio" name="q34" value="D. Only one font family is allowed." data-correct="false">  Only one font family is allowed.</label>
+                </div>
+                <br>
+                <div class="example">
+                    <pre>
+            EXAMPLE:   font-family: Arial, "Helvetica Neue", sans-serif;
+                    </pre>
+                </div>
+            </div>
+            
+            
+            <div class="question">
+                <p>35. What is the default value of the font-style property in CSS?</p>
+                <div class="options">
+                    <label><input type="radio" name="q35" value="A. italic" data-correct="false">  italic</label>
+                    <label><input type="radio" name="q35" value="B. bold" data-correct="false">  bold</label>
+                    <label><input type="radio" name="q35" value="C. normal" data-correct="true">  normal</label>
+                    <label><input type="radio" name="q35" value="D. oblique" data-correct="false">  oblique</label>
+                </div>
+            </div>
+            
+
+            <div class="question">
+                <p>36. Which CSS property makes text bold?</p>
+                <div class="options">
+                    <label><input type="radio" name="q36" value="A. font-family" data-correct="false">  font-family</label>
+                    <label><input type="radio" name="q36" value="B. font-style" data-correct="false">  font-style</label>
+                    <label><input type="radio" name="q36" value="C. font-weight" data-correct="true">  font-weight</label>
+                    <label><input type="radio" name="q36" value="D. text-transform" data-correct="false">  text-transform</label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>37. What are the possible values for the font-weight property?</p>
+                <div class="options">
+                    <label><input type="radio" name="q37" value="A. normal, bold, italic" data-correct="false">  normal, bold, italic</label>
+                    <label><input type="radio" name="q37" value="B. normal, lighter, bolder, numerical values (100-900)" data-correct="true">  normal, lighter, bolder, numerical values (100-900)</label>
+                    <label><input type="radio" name="q37" value="C. bold, light, dark" data-correct="false">  bold, light, dark</label>
+                    <label><input type="radio" name="q37" value="D. normal, bold, semi-bold, ultra-bold" data-correct="false">  normal, bold, semi-bold, ultra-bold</label>
+                </div>
+            </div>
+
+
+            <div class="question">
+                <p>38. How do you specify a font size in CSS?</p>
+                <div class="options">
+                    <label><input type="radio" name="q38" value="A. Use the font-family property." data-correct="false">  Use the font-family property.</label>
+                    <label><input type="radio" name="q38" value="B. Use the font-size property." data-correct="true">  Use the font-size property.</label>
+                    <label><input type="radio" name="q38" value="C. Use the text-size property." data-correct="false">  Use the text-size property.</label>
+                    <label><input type="radio" name="q38" value="D. Use the size property." data-correct="false">  Use the size property.</label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>39. What are the relative units used for font size in CSS?</p>
+                <div class="options">
+                    <label><input type="radio" name="q39" value="A. px, em, rem, %" data-correct="false">  px, em, rem, %</label>
+                    <label><input type="radio" name="q39" value="B. em, cm, rem, km" data-correct="false">  em, cm, rem, km</label>
+                    <label><input type="radio" name="q39" value="C. em, rem, %, vw, vh" data-correct="true">  em, rem, %, vw, vh</label>
+                    <label><input type="radio" name="q39" value="D. em, rem, px, ex" data-correct="false">  em, rem, px, ex</label>
+                </div>
+            </div>
+            
+            
+            <div class="question">
+                <p>40. What does the line-height property control?</p>
+                <div class="options">
+                    <label><input type="radio" name="q40" value="A. The space between letters" data-correct="false">  The space between letters</label>
+                    <label><input type="radio" name="q40" value="B. The vertical space between lines of text" data-correct="true">  The vertical space between lines of text</label>
+                    <label><input type="radio" name="q40" value="C. The width of the text block" data-correct="false">  The width of the text block</label>
+                    <label><input type="radio" name="q40" value="D. The height of the font itself" data-correct="false">  The height of the font itself</label>
+                </div>
+            </div>
+
+
+            <div class="question">
+                <p>41. Which CSS property is used to capitalize the first letter of each word?</p>
+                <div class="options">
+                    <label><input type="radio" name="q41" value="A. text-style" data-correct="false">  text-style</label>
+                    <label><input type="radio" name="q41" value="B. font-style" data-correct="false">  font-style</label>
+                    <label><input type="radio" name="q41" value="C. text-transform" data-correct="true">  text-transform</label>
+                    <label><input type="radio" name="q41" value="D. font-transform" data-correct="false">  font-transform</label>
+                </div>
+            </div>
+            <div class="example">
+                <pre>
+        EXAMPLE:   text-transform: capitalize;
+                </pre>
+            </div>
+        </div>
+
+
+        <div class="question">
+            <p>42. How do you underline text using CSS?</p>
+            <div class="options">
+                <label><input type="radio" name="q42" value="A. text-decoration: line;" data-correct="false">  text-decoration: line;</label>
+                <label><input type="radio" name="q42" value="B. text-decoration: underline;" data-correct="true">  text-decoration: underline;</label>
+                <label><input type="radio" name="q42" value="C. font-style: underline;" data-correct="false">  font-style: underline;</label>
+                <label><input type="radio" name="q42" value="D. text-style: line;" data-correct="false">  text-style: line;</label>
+            </div>
+        </div>
+
+
+        <div class="question">
+            <p>43. What is the difference between em and rem units?</p>
+            <div class="options">
+                <label><input type="radio" name="q43" value="A. em is relative to the parent element, while rem is relative to the root element." data-correct="true">  em is relative to the parent element, while rem is relative to the root element.</label>
+                <label><input type="radio" name="q43" value="B. em is absolute, and rem is relative." data-correct="false">  em is absolute, and rem is relative.</label>
+                <label><input type="radio" name="q43" value="C. em is for margins, and rem is for font sizes." data-correct="false">  em is for margins, and rem is for font sizes.</label>
+                <label><input type="radio" name="q43" value="D. em is larger than rem." data-correct="false">  em is larger than rem.</label>
+            </div>
+        </div>
+
+
+        <div class="question">
+            <p>44. How can you include a custom font in a web page?</p>
+            <div class="options">
+                <label><input type="radio" name="q44" value="A. Use the &lt;custom-font&gt; tag." data-correct="false">  Use the &lt;custom-font&gt; tag.</label>
+                <label><input type="radio" name="q44" value="B. Use the @font-face rule in CSS." data-correct="true">  Use the @font-face rule in CSS.</label>
+                <label><input type="radio" name="q44" value="C. Add the font file directly to the HTML." data-correct="false">  Add the font file directly to the HTML.</label>
+                <label><input type="radio" name="q44" value="D. Use the font-family property with the file path." data-correct="false">  Use the font-family property with the file path.</label>
+            </div>
+        </div>
+
+        <div class="example">
+            <pre>
+    EXAMPLE:   
+              @font-face {
+                 font-family: "CustomFont";
+                 src: url("customfont.woff2") format("woff2");
+               }
+      
+            </pre>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>45. What CSS property controls the spacing between letters?</p>
+        <div class="options">
+            <label><input type="radio" name="q45" value="A. letter-spacing" data-correct="true">  letter-spacing</label>
+            <label><input type="radio" name="q45" value="B. text-spacing" data-correct="false">  text-spacing</label>
+            <label><input type="radio" name="q45" value="C. font-spacing" data-correct="false">  font-spacing</label>
+            <label><input type="radio" name="q45" value="D. word-spacing" data-correct="false">  word-spacing</label>
+        </div>
+    </div>
+
+
+    <div class="question">
+        <p>46. Which property adjusts the space between words?</p>
+        <div class="options">
+            <label><input type="radio" name="q46" value="A. word-spacing" data-correct="true">  word-spacing</label>
+            <label><input type="radio" name="q46" value="B. letter-spacing" data-correct="false">  letter-spacing</label>
+            <label><input type="radio" name="q46" value="C. font-spacing" data-correct="false">  font-spacing</label>
+            <label><input type="radio" name="q46" value="D. text-spacing" data-correct="false">  text-spacing</label>
+        </div>
+    </div>
+
+
+    <div class="question">
+        <p>47. What is the shorthand property for setting all font-related properties?</p>
+        <div class="options">
+            <label><input type="radio" name="q47" value="A. text" data-correct="false">  text</label>
+            <label><input type="radio" name="q47" value="B. font" data-correct="true">  font</label>
+            <label><input type="radio" name="q47" value="C. style" data-correct="false">  style</label>
+            <label><input type="radio" name="q47" value="D. font-settings" data-correct="false">  font-settings</label>
+        </div>
+    </div>
+    
+    <div class="example">
+        <pre>
+EXAMPLE:    font: italic bold 16px/1.5 "Arial", sans-serif;
+
+        </pre>
+    </div>
+</div>
+
+<div class="question">
+    <p>48. Which value of font-variant displays small caps?</p>
+    <div class="options">
+        <label><input type="radio" name="q48" value="A. small" data-correct="false">  small</label>
+        <label><input type="radio" name="q48" value="B. caps" data-correct="false">  caps</label>
+        <label><input type="radio" name="q48" value="C. small-caps" data-correct="true">  small-caps</label>
+        <label><input type="radio" name="q48" value="D. variant-caps" data-correct="false">  variant-caps</label>
+    </div>
+</div>
+
+<div class="question">
+    <p>49. What happens when you use inherit as a value for a font property?</p>
+    <div class="options">
+        <label><input type="radio" name="q49" value="A. The property takes the default browser value." data-correct="false">  The property takes the default browser value.</label>
+        <label><input type="radio" name="q49" value="B. The property value is inherited from the parent element." data-correct="true">  The property value is inherited from the parent element.</label>
+        <label><input type="radio" name="q49" value="C. The property is ignored." data-correct="false">  The property is ignored.</label>
+        <label><input type="radio" name="q49" value="D. The text becomes italic." data-correct="false">  The text becomes italic.</label>
+    </div>
+</div>
+
+<div class="question">
+    <p>50. How do you make text italic in CSS?</p>
+    <div class="options">
+        <label><input type="radio" name="q50" value="A. font-style: bold;" data-correct="false">  font-style: bold;</label>
+        <label><input type="radio" name="q50" value="B. font-variant: italic;" data-correct="false">  font-variant: italic;</label>
+        <label><input type="radio" name="q50" value="C. font-style: italic;" data-correct="true">  font-style: italic;</label>
+        <label><input type="radio" name="q50" value="D. text-transform: italic;" data-correct="false">  text-transform: italic;</label>
+    </div>
+</div>
+
+
+<div class="question">
+    <p>51. What is the effect of setting text-align: justify;?</p>
+    <div class="options">
+        <label><input type="radio" name="q51" value="A. Text is aligned to the left." data-correct="false">  Text is aligned to the left.</label>
+        <label><input type="radio" name="q51" value="B. Text is aligned to the right." data-correct="false">  Text is aligned to the right.</label>
+        <label><input type="radio" name="q51" value="C. Text is evenly distributed between the left and right margins." data-correct="true">  Text is evenly distributed between the left and right margins.</label>
+        <label><input type="radio" name="q51" value="D. Text is centered." data-correct="false">  Text is centered.</label>
+    </div>
+</div>
+
+
+<div class="question">
+    <p>52. How do you change the text color in CSS?</p>
+    <div class="options">
+        <label><input type="radio" name="q52" value="A. text-style: color;" data-correct="false">  text-style: color;</label>
+        <label><input type="radio" name="q52" value="B. color:" data-correct="true">  color:</label>
+        <label><input type="radio" name="q52" value="C. text-color:" data-correct="false">  text-color:</label>
+        <label><input type="radio" name="q52" value="D. font-color:" data-correct="false">  font-color:</label>
+    </div>
+</div>
+     
+<div class="example">
+    <pre>
+EXAMPLE:    color: red;
+
+
+    </pre>
+</div>
+</div>
+
+        
+        
+<!-- Submit Quiz Button -->
+<button type="button" id="submit-quiz">Submit Quiz</button>
+
+<!-- Restart Game Button -->
+<button type="button" id="restart-game">Restart Game</button>
+
+
+
+
+</body>
+</html>
+
